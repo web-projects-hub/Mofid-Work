@@ -44,6 +44,51 @@ body[data-active-course]{background:radial-gradient(ellipse at 12% 8%,color-mix(
 @media(max-width:380px){.course-grid{grid-template-columns:1fr}.course-card{min-height:150px}.topbar-note{font-size:9px}.hero{padding-right:21px;padding-left:21px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 
+/* تنظیم ظاهری دکمه‌های اصلی */
+.hero-link{
+  gap:24px;
+  margin-top:32px;
+  padding:18px 28px;
+  border:0;
+  border-radius:14px;
+  color:#fff;
+  background:#ff1744;
+  box-shadow:none;
+  font-size:14px;
+}
+.hero-link::before{display:none}
+.hero-link:hover{
+  transform:none;
+  color:#fff;
+  background:#ff3158;
+  box-shadow:none;
+}
+.hero-link:hover svg{transform:none}
+
+.channel-button{
+  width:82px;
+  min-width:82px;
+  height:82px;
+  padding:0;
+  border:0;
+  border-radius:50%;
+  gap:5px;
+  flex-direction:column;
+  color:#073d32;
+  background:#72f2c3;
+  box-shadow:none;
+  backdrop-filter:none;
+  font-size:13px;
+}
+.channel-button:hover{
+  transform:none;
+  color:#073d32;
+  background:#8af7d0;
+  box-shadow:none;
+}
+.channel-icon svg{width:20px;height:20px}
+.channel-arrow{display:none}
+
 </style>
 </head>
 
