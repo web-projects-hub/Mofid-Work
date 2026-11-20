@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "courseId": "science",
+    "sectionId": "physics-chemistry",
+    "title": "جزوه علوم (بور)",
+    "fileName": "بور.pdf",
+    "description": "",
+    "path": "files/science/بور.pdf"
+  }
+]
