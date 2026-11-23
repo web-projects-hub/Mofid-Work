@@ -1,10 +1,10 @@
 [
   {
-    "courseId": "social-studies",
-    "sectionId": "history",
-    "title": "درس 9 و 10",
-    "fileName": "lesson9_10_social8.html",
+    "courseId": "math",
+    "sectionId": "arithmetic",
+    "title": "جزوه ی ریاضی | عدد های گویا و توان و جذر",
+    "fileName": "goyajazr.html",
     "description": "",
-    "path": "motaleat/tarikh-chemistry/lesson9_10_social8.html"
+    "path": "files/math/arithmetic/goyajazr.html"
   }
 ]
